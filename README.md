@@ -17,3 +17,9 @@ In my day-to-day, I might still need to use accents, and I removed three keys th
     - Note that this requires the option key, but I do not expect to ever need acute accents when typing in the terminal.
   - Grave accent ``(`)`` with shift + `<last-key-in-number-row>`
   - Umlaut ``(¨)`` with `<last-key-in-qwertz-row>`, where `<last-key-in-qwertz-row>` has the symbols `(!)` and `(¨)`printed.
+
+# Files
+  - `karabiner.json` is an auto-generated file created by Karabiner-Elements. I just copied it to have all information, just in case. It is stored in
+  `~/.config/karabiner/`
+  - `myconfig.json` is the file I created. It is stored in `~/.config/karabiner/assets/complex_modifications/`. Once stored there, Karabiner-Elements is
+  able to detect it and you can add the rules with the Karabiner GUI.
