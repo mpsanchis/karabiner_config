@@ -3,7 +3,7 @@ Configuration for Karabiner-Elements app
 
 # Complex modifications
 The remapping was done to avoid the problem in the MacOS terminal which, when selecting "Option as Meta Key", it prevents using
-the option key for anything else other than meta (e.g. option can be used to jump from word to word, but it can't be used in 
+the option key for anything else other than meta (e.g. option can be used to jump from word to word, but it can't be used in
 combination with other keys to generate special characters).
 This led me to choose between these two alternatives:
   1. Not being able to jump between words (opt + arrows) or deleting whole words (opt + delete/back)
@@ -23,3 +23,7 @@ In my day-to-day, I might still need to use accents, and I removed three keys th
   `~/.config/karabiner/`
   - `myconfig.json` is the file I created. It is stored in `~/.config/karabiner/assets/complex_modifications/`. Once stored there, Karabiner-Elements is
   able to detect it and you can add the rules with the Karabiner GUI.
+
+# Keyboard type
+Upgrades of Karabiner might result in the software "forgetting" the keyboard type. Despite my computer having ISO layout, the above configuration works if the keyboard type in Karabiner is set as ANSI.
+The setting can be found (Karabiner-Elements v15.3.0) in Settings -> Virtual Keyboard -> Keyboard Type.
